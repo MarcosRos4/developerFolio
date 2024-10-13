@@ -38,14 +38,14 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Entre em Contato :)" href="#contact" />
                 {greeting.resumeLink && (
                   <a
                     href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    download="Curriculo-do-Marcos.pdf"
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
+                    <Button text="Baixe meu Currículo" />
                   </a>
                 )}
               </div>
